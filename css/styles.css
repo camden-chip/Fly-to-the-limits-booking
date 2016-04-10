@@ -1,0 +1,50 @@
+
+body {
+	margin: 0 0;
+ }
+html {
+	background: url(http://www.nzstory.govt.nz/thumbnails/01CWNZS_NZS_7777-thumb.jpg) no-repeat center center fixed;
+	webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav {
+	background-color: none;
+	/*margin: -20px -10px;*/
+	height: 80px;
+}
+#logo h1 a{
+	
+	color: black;
+	text-decoration: none;
+	
+
+}
+#logo hr {
+	height: 5px;
+	background-color: #D2852E;
+	border: none;
+	border-radius: 3px;
+	margin-top: -15px;
+}
+#main-nav ul a{
+	float: right;
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+}
+#logo {
+	float: left;
+	margin-top: -20px;
+	margin-left: 20px;
+}
+#main-nav ul{
+	margin-top: 0;
+
+}
+#location {
+content: '';
+display: block;
+clear: both
+}
