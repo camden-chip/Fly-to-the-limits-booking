@@ -1,6 +1,7 @@
 
 body {
-	margin: 0 0;
+margin: 0 0;
+font-family: arial;
  }
 html {
 	background: url(http://www.nzstory.govt.nz/thumbnails/01CWNZS_NZS_7777-thumb.jpg) no-repeat center center fixed;
@@ -10,16 +11,13 @@ html {
   background-size: cover;
 }
 nav {
-	background-color: none;
+	
 	/*margin: -20px -10px;*/
 	height: 80px;
+
 }
 #logo h1 a{
-	
-	color: black;
-	text-decoration: none;
-	
-
+		
 }
 #logo hr {
 	height: 5px;
@@ -28,11 +26,15 @@ nav {
 	border-radius: 3px;
 	margin-top: -15px;
 }
-#main-nav ul a{
+#main-nav  li{
 	float: right;
 	text-decoration: none;
 	color: black;
-	margin-right: 40px;
+	margin-right: 100px;
+	background-color: white;
+	margin-top: -10px;
+	font-size: 18px;
+
 }
 #logo {
 	float: left;
@@ -41,10 +43,42 @@ nav {
 }
 #main-nav ul{
 	margin-top: 0;
-
 }
+ #main-nav {
+	background-color: white;
+}
+
 #location {
+	clear: both;
+}
+
+#location:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#location ul li{
+float: left;
 content: '';
 display: block;
-clear: both
+padding-left: 50px;
+}
+
+li {
+	list-style: none;
+font-weight: bold;
+
+
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#location {
+	transform: rotate(0.75turn);
+	position: absolute;
+	left: -140px;
+	top: 250px;
 }
