@@ -31,7 +31,7 @@ nav {
 #main-nav li:not(first-child){
 	/*float: right;*/
 	display: inline-block;
-	margin-right: 80px;
+	margin-left: 100px;
 	margin-top: 5px;
 	font-size: 18px;
 
@@ -46,12 +46,14 @@ nav {
 #main-nav ul{
 	margin-top: 10px;
 	margin-top: 0;
+
 	
 
 }
  #main-nav {
  float: right;
  height: 30px;
+ width: 60%;
 background: rgba(255,255,255,0.5);	
 }
 
@@ -115,3 +117,4 @@ a {
 	left: -140px;
 	top: 250px;
 }
+ 
