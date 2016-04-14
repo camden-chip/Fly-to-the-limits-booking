@@ -11,12 +11,13 @@ html {
   background-size: cover;
 }
 * {
-	border-radius: 3px;
+	
 }
 nav {
 	
 	/*margin: -20px -10px;*/
 	height: 80px;
+
 
 }
 #logo h1 a{
@@ -26,35 +27,36 @@ nav {
 	height: 5px;
 	background-color: #D2852E;
 	border: none;
-	margin-top: -15px;
+	margin-top: -40px;
 }
 #main-nav li:not(first-child){
 	/*float: right;*/
 	display: inline-block;
 	margin-left: 100px;
 	margin-top: 5px;
-	font-size: 18px;
+	font-size: 18px; 
+}
+#main-nav li:hover {
 
 }
 
 #logo {
 	float: left;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-left: 20px;
-	background-color: none;
+	
+	font-size: 25px;
+	
 }
 #main-nav ul{
-	margin-top: 10px;
-	margin-top: 0;
-
-	
-
+	margin-top: 0;		
 }
  #main-nav {
  float: right;
  height: 30px;
  width: 60%;
-background: rgba(255,255,255,0.5);	
+background: rgba(255,255,255,0.5);
+
 }
 
 #active-site {
@@ -81,26 +83,26 @@ background: rgba(255,255,255,0.5);
 
 #location {
 	clear: both;
+	background-color: green;
+	display: inline-block;
 }
 
 #location:after {
 	content: '';
 	display: block;
 	clear: both;
-}
+	}
 
 #location ul li{
 float: left;
 content: '';
-display: block;
 padding-left: 40px;	
-
-text-align: center;
+background-color: purple;
+font-size: 20px;
 }
-#location ul li:first-child {
+#active-location {
 	background-color: orange;
-
-
+	padding: 5px 7px;
 }
 li {
 	list-style: none;
@@ -115,6 +117,25 @@ a {
 	transform: rotate(0.75turn);
 	position: absolute;
 	left: -140px;
-	top: 250px;
+	top: 350px;
+	position: fixed;
 }
- 
+.tours p {
+	background-color: yellow;
+	width: 300px;
+} 
+.tours {
+	display: inline-block;
+	margin-left: 10px;
+
+}
+main {
+	background-color: red;
+	width: 950px;
+	margin: 0 auto;
+	margin-top: 200px;
+
+}
+.tours h1 {
+	font-size: 18px;
+}
