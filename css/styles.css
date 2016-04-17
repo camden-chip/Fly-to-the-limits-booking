@@ -10,11 +10,10 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-* {
+* { border-radius: 5px;
 	
 }
 nav {
-	
 	/*margin: -20px -10px;*/
 	height: 80px;
 
@@ -27,11 +26,11 @@ nav {
 	height: 5px;
 	background-color: #D2852E;
 	border: none;
-	margin-top: -40px;
+	margin-top: -35px;
 }
 #main-nav li:not(first-child){
-	/*float: right;*/
-	display: inline-block;
+	float: left;
+	display: block;
 	margin-left: 100px;
 	margin-top: 5px;
 	font-size: 18px; 
@@ -58,7 +57,9 @@ nav {
 background: rgba(255,255,255,0.5);
 
 }
-
+#main-nav a:hover {
+color: #D2852E;
+}
 #active-site {
 	position: relative;
 }
@@ -77,14 +78,22 @@ background: rgba(255,255,255,0.5);
 	background-color: orange;
 	position: absolute;
 	border-radius: 50%;
-	left: -20px;
+	left: -30px;
 	top: 5px;
 }
 
 #location {
 	clear: both;
-	background-color: green;
 	display: inline-block;
+
+}
+#location ul {
+	margin: 0;
+	background-color: blue;
+}
+#location a  {
+	background-color: #D2852E;
+	padding: 10px 30px;
 }
 
 #location:after {
@@ -95,14 +104,13 @@ background: rgba(255,255,255,0.5);
 
 #location ul li{
 float: left;
-content: '';
-padding-left: 40px;	
-background-color: purple;
+/*content: '';*/
+margin-left: 32px;	
 font-size: 20px;
 }
-#active-location {
-	background-color: orange;
-	padding: 5px 7px;
+
+#active-location a {
+	padding: 20px 30px;
 }
 li {
 	list-style: none;
@@ -115,10 +123,12 @@ a {
 
 #location {
 	transform: rotate(0.75turn);
-	position: absolute;
-	left: -140px;
-	top: 350px;
+	left: -180px;
+	top: 370px;
 	position: fixed;
+}
+#location a:hover {
+	background-color: #555555;
 }
 .tours p {
 	background-color: yellow;
