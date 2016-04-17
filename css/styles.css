@@ -10,13 +10,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-* {
-	border-radius: 3px;
+* { border-radius: 5px;
+	
 }
 nav {
-	
 	/*margin: -20px -10px;*/
 	height: 80px;
+
 
 }
 #logo h1 a{
@@ -26,35 +26,40 @@ nav {
 	height: 5px;
 	background-color: #D2852E;
 	border: none;
-	margin-top: -15px;
+	margin-top: -35px;
 }
 #main-nav li:not(first-child){
-	/*float: right;*/
-	display: inline-block;
-	margin-right: 80px;
+	float: left;
+	display: block;
+	margin-left: 100px;
 	margin-top: 5px;
-	font-size: 18px;
+	font-size: 18px; 
+}
+#main-nav li:hover {
 
 }
 
 #logo {
 	float: left;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-left: 20px;
-	background-color: none;
+	
+	font-size: 25px;
+	
 }
 #main-nav ul{
-	margin-top: 10px;
-	margin-top: 0;
-	
-
+	margin-top: 0;		
 }
  #main-nav {
  float: right;
  height: 30px;
-background: rgba(255,255,255,0.5);	
-}
+ width: 60%;
+background: rgba(255,255,255,0.5);
 
+}
+#main-nav a:hover {
+color: #D2852E;
+}
 #active-site {
 	position: relative;
 }
@@ -73,32 +78,39 @@ background: rgba(255,255,255,0.5);
 	background-color: orange;
 	position: absolute;
 	border-radius: 50%;
-	left: -20px;
+	left: -30px;
 	top: 5px;
 }
 
 #location {
 	clear: both;
+	display: inline-block;
+
+}
+#location ul {
+	margin: 0;
+	background-color: blue;
+}
+#location a  {
+	background-color: #D2852E;
+	padding: 10px 30px;
 }
 
 #location:after {
 	content: '';
 	display: block;
 	clear: both;
-}
+	}
 
 #location ul li{
 float: left;
-content: '';
-display: block;
-padding-left: 40px;	
-
-text-align: center;
+/*content: '';*/
+margin-left: 32px;	
+font-size: 20px;
 }
-#location ul li:first-child {
-	background-color: orange;
 
-
+#active-location a {
+	padding: 20px 30px;
 }
 li {
 	list-style: none;
@@ -111,7 +123,29 @@ a {
 
 #location {
 	transform: rotate(0.75turn);
-	position: absolute;
-	left: -140px;
-	top: 250px;
+	left: -180px;
+	top: 370px;
+	position: fixed;
+}
+#location a:hover {
+	background-color: #555555;
+}
+.tours p {
+	background-color: yellow;
+	width: 300px;
+} 
+.tours {
+	display: inline-block;
+	margin-left: 10px;
+
+}
+main {
+	background-color: red;
+	width: 950px;
+	margin: 0 auto;
+	margin-top: 200px;
+
+}
+.tours h1 {
+	font-size: 18px;
 }
