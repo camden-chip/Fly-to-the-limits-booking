@@ -35,15 +35,11 @@ nav {
 	margin-top: 5px;
 	font-size: 18px; 
 }
-#main-nav li:hover {
-
-}
 
 #logo {
 	float: left;
 	margin-top: 5px;
 	margin-left: 20px;
-	
 	font-size: 25px;
 	
 }
@@ -53,8 +49,9 @@ nav {
  #main-nav {
  float: right;
  height: 30px;
- width: 60%;
+ width: 65%;
 background: rgba(255,255,255,0.5);
+
 
 }
 #main-nav a:hover {
@@ -86,13 +83,14 @@ color: #D2852E;
 	clear: both;
 	display: inline-block;
 
+
 }
 #location ul {
 	margin: 0;
 	background-color: blue;
 }
 #location a  {
-	background-color: #D2852E;
+  background-color: rgba(210, 133, 46, 0.5);
 	padding: 10px 30px;
 }
 
@@ -111,6 +109,7 @@ font-size: 20px;
 
 #active-location a {
 	padding: 20px 30px;
+	background-color: rgba(210, 133, 46, 1)
 }
 li {
 	list-style: none;
@@ -123,7 +122,7 @@ a {
 
 #location {
 	transform: rotate(0.75turn);
-	left: -180px;
+	left: -190px;
 	top: 370px;
 	position: fixed;
 }
@@ -140,7 +139,7 @@ a {
 
 }
 main {
-	background-color: red;
+	background-color: rgba(255,255,255, 0.5);
 	width: 950px;
 	margin: 0 auto;
 	margin-top: 200px;
@@ -148,4 +147,42 @@ main {
 }
 .tours h1 {
 	font-size: 18px;
+}
+#search {
+	margin-top: 70px;
+	position: relative;
+	margin-left: x;
+}
+.tours img {
+	position: relative;
+}
+.tours h1 {
+	text-align: center;
+}
+footer {
+	background-color: #333333;
+	margin-bottom: 0;
+	text-align: left;
+}
+#social {
+	position: absolute;
+	right: 200px; 
+	margin-top: 60px;
+	font-size: 30px;
+}
+#social i {
+	margin-right: 20px;
+}
+#social i:
+.tours img {
+	width: 900px;
+}
+#phone {
+	position: absolute;
+	margin-top: 70px;
+	right: 500px;
+	font-size: 22px;
+}
+#phone span {
+	font-weight: bolder;
 }
