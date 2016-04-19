@@ -11,6 +11,7 @@ html {
   background-size: cover;
 }
 * { border-radius: 3px;
+	box-shadow: 1px solid
 	
 }
 nav {
@@ -135,13 +136,16 @@ a {
 .tours {
 	display: inline-block;
 	margin-left: 10px;
-
+	height: 400px;
 }
+
 main {
 	background-color: rgba(255,255,255, 0.5);
 	width: 950px;
 	margin: 0 auto;
-	margin-top: 200px;
+	margin-top: 100px;
+	height: 400px;
+
 
 }
 .tours h1 {
@@ -164,6 +168,7 @@ footer {
 	text-align: left;
 	margin-bottom: 0;
 	height: 200px;
+
 }
 #social {
 	position: absolute;
@@ -179,6 +184,10 @@ footer {
 	height: 200px;
 	margin-top: 10px;
 	border: 1px solid #333333;
+	position: relative;
+}
+.tours {
+
 }
 #phone {
 	position: absolute;
@@ -198,4 +207,32 @@ footer {
 footer p:last-child {
 background-color: #D2852E;
 
+}
+footer div {
+	margin: 0  auto;
+	width: 950px;
+}
+#book-now {
+	margin-top: 100px;
+	margin-left: 200px;
+	background-color: rgba(255,255,255, 0.5);
+	width: 300px;
+	padding: 15px;
+	position: relative;
+	font-weight: bold;
+	font-style: inherit;
+
+}
+#book-now span {
+	position: absolute;
+	margin-left: 100px;
+	background-color: #D2852E;
+	padding: 15px 20px;
+	width: 100px;
+	text-align: center;
+	
+	margin-top: -15px;
+}
+#book-now span:hover {
+	color: white;
 }
