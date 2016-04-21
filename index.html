@@ -43,14 +43,15 @@
 		<main>
 
 <div id="booking"><h1>Please fill in and submit the form for qoute and availability.</h1>
-	<form action="register.php" method="get">
+	<form action="register.php" method="get" id="registration">
 	<div>
 	<label for="full-name">Full name</label>
-	<input type="text" id="full-name" required placeholder="John Smith">
+	<input type="text" id="full-name" placeholder="John Smith">
+	<span id="full-name-message"></span>
 	</div>
 	<div>
 <label for="email">Email</label>
-	<input type="email" id="email" required>
+	<input type="email" id="email">
 	</div>
 	<div>
 <label for="tel">Phone</label>
@@ -85,8 +86,8 @@
 		<label for="post">Your message</label>
 		<textarea name="" id="post" cols="70" rows="10"></textarea></textarea>
 	</div>
-		
-	<input type="submit">
+	<div id="submit">
+	<input type="submit"></div>	
 </form>	
 </div>
 	</div>
@@ -107,6 +108,6 @@
 </div>
 </footer>
 <!-- Main content goes here -->
-
+<script src="js/val.js"></script>
 </body>
 </html>

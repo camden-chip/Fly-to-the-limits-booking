@@ -186,7 +186,6 @@ footer {
 	margin-right: 20px;
 }
 
-}
 
 #phone {
 	position: absolute;
@@ -235,11 +234,15 @@ footer li a:hover {
 }
 #booking {
 	
-	width: 450px;
+	width: 500px;
     margin: 0 auto;
-    padding-top: 60px;
-
-
+    padding-top: 20px;
+}
+#booking h1 {
+	font-size: 17px;
+}
+#submit {
+	color:#D2852E; 
 }
 
 
