@@ -18,6 +18,7 @@
 
 <div id="main-nav"><ul>
 	<li id="active-site"><a href="#">Home</a></li>
+
 	<li><a href="#">Tours/Prices</a></li>
 	<li><a href="#">About us</a></li>
 	<li><a href="#">Contact Us</a></li>
@@ -39,38 +40,71 @@
 	<li><a href="#">Queenstown</a></li>
 </ul>
 	</div>
-	<div id="book-now">
-		<a href="#">Book your experience with us! <span>Book now</span></a></div>
-	<main>
-	
+		<main>
 
-	<div class="tours">
-	<a href="#"><img src="http://www.nzstory.govt.nz/thumbnails/1064626_169619__KES3539.jpg">
-	<h1>Helicopter tours</h1>
-	<p>Book 1hour</p></a>
-		
+<div id="booking"><h1>Please fill in and submit the form for qoute and availability.</h1>
+	<form action="register.php" method="get">
+	<div>
+	<label for="full-name">Full name</label>
+	<input type="text" id="full-name" required placeholder="John Smith">
 	</div>
-	<div class="tours">
-	<a href="#"><img src="http://www.nzstory.govt.nz/thumbnails/01RSTNZ_NZS_L161-thumb.jpg
-	">
-	<h1>Glider flights</h1>
-	<p>.</p></a>
-		
+	<div>
+<label for="email">Email</label>
+	<input type="email" id="email" required>
 	</div>
-	<div class="tours">
-	<a href="#"><img src="http://www.kiwiwise.co.nz/img/cache/photo/ready-for-skydiving-284--.jpg">
-	<h1>Fixed wing flights</h1>
-	<p>.</p></a>
+	<div>
+<label for="tel">Phone</label>
+	<input type="tel" id="tel">
+	</div>
+<div>
+<label for="quantuty">Number of people</label>
+	<input type="number" id="quantity" min="1">
+	</div>
+		<div>
+<label for="date">Check-in</label>
+	<input type="date" id="date" >
+	</div>
+	<div>
+		<label for="town1">Pick up location</label>
+		<select name="town1" id="town1">
+		<option value="town1">Please select</option>
+		<option value="1">Queenstown</option>
+		<option value="2">Wanaka</option>
+		</select>
+	</div>
+	<div>
+		<label for="town2">Drop off location</label>
+		<select name="town1" id="town1">
+		<option value="town1">Please select</option>
+		<option value="1">Queenstown</option>
+		<option value="2">Wanaka</option>
+		</select>
+	</div>
+
+	<div>
+		<label for="post">Your message</label>
+		<textarea name="" id="post" cols="70" rows="10"></textarea></textarea>
+	</div>
 		
+	<input type="submit">
+</form>	
+</div>
 	</div>
 	
 </main>
 <footer>
-<div>
-	<ul>
-		<li><a href="#"></a></li>
-	</ul>
-	</div>
+<div id="site-map">
+<ul>
+	<li id="active-site"><a href="#">Home</a></li>
+
+    <li><a href="#">Tours/Prices</a></li>
+	<li><a href="#">Our staff</a></li>
+	<li id="active-site"><a href="#">Our fleet</a></li>
+	<li><a href="#">About us</a></li>
+	<li><a href="#">Contact Us</a></li>
+</ul>
+<hr>
+</div>
 </footer>
 <!-- Main content goes here -->
 

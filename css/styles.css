@@ -77,6 +77,8 @@ color: #D2852E;
 	position: relative;
 }
 
+}
+
 #active-site:before {
 	/*width: 10px;
 	height: 10px;
@@ -148,15 +150,8 @@ a {
 #location a:hover {
 	background-color: #555555;
 }
-.tours p {
-	width: 300px;
-} 
-.tours {
-	display: inline-block;
-	margin-left: 10px;
-	height: 400px;
 
-}
+
 
 main {
 	background-color: rgba(255,255,255, 0.5);
@@ -165,30 +160,18 @@ main {
 	margin-top: 100px;
 	height: 400px;
 	box-shadow: 1px 1px 15px 1px #333;
-	height: 300px;
+	height: 400px;
 
-
-}
-.tours h1 {
-	font-size: 18px;
-}
-#search {
-	margin-top: 70px;
-	position: relative;
-	margin-left: x;
-}
-.tours img {
-	position: relative;
-}
-.tours h1 {
-	text-align: center;
 }
 footer {
 	background-color: #D2852E;
 	margin-bottom: 0;
 	text-align: left;
-	margin-bottom: 0;
-	height: 200px;
+		height: 150px;
+	width: 1150px;
+	margin: 0 auto;
+	margin-top: 100px;
+	box-shadow: 1px 1px 15px 1px #333;
 
 }
 #social {
@@ -202,16 +185,9 @@ footer {
 #social i {
 	margin-right: 20px;
 }
-.tours img {
-	width: 300px;
-	height: 200px;
-	margin-top: 10px;
-	border: 1px solid #333333;
-	position: relative;
-}
-.tours {
 
 }
+
 #phone {
 	position: absolute;
 	margin-top: 70px;
@@ -238,36 +214,39 @@ footer div {
 	width: 950px;
 }
 footer {
-	width: 950px;
+	width: 1150px;
 	margin: 0 auto;
 	margin-top: 100px;
 	box-shadow: 1px 1px 15px 1px #333;
 }
-#book-now {
-	margin-top: 100px;
-	margin-left: 200px;
-	background-color: rgba(255,255,255, 0.5);
-	width: 300px;
-	padding: 15px;
-	position: relative;
-	font-weight: bold;
-	font-family: Tahoma, Geneva, sans-serif;
-	box-shadow: 1px 1px 15px 1px #333;
-	text-align: center;
 
+footer li {
+	display: inline-block;
+	margin-top: 60px;
+	margin-left: 60px;
 }
-#book-now span {
-	position: absolute;
-	margin-left: 100px;
-	background-color: #D2852E;
-	padding: 15px 20px;
-	width: 100px;
-	text-align: center;
-	box-shadow: 1px 1px 15px 1px #333;
-	margin-top: -15px;
-
-}
-#book-now span:hover {
-	color: #D2852E;
+footer hr {
 	background-color: #333333;
+	height: 1px;
+	border: none;
 }
+footer li a:hover {
+	color: #333333;
+}
+#booking {
+	
+	width: 450px;
+    margin: 0 auto;
+    padding-top: 60px;
+
+
+}
+
+
+
+
+
+
+
+
+
